@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+    git makes an empty git repository with no files in it, to give user a full control on what files it wants to add.
+    
+    Need: Without initializing git, git won't know if it needs to track the changes.
