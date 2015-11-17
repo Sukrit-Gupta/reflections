@@ -1,0 +1,64 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+    using diff is a very quick way to spot the differences between the two files, sometimes while copying we skip some characters, or in the process delete some characters in the new files.
+    Sometimes, the new written code is perfectly fine apart from typo from previous code.
+    So using diff can help you rule out the typo or human error while copying the code. So a good attempt.
+    
+    If it is not a typo error, then it helps you analyze the new code in context of previous code.
+    
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I manually saved the versions of the file from a long time. But these versions
+    were not much useful to me as they didn't had a commit message. Neither I knew tools
+    like diff or winmerge, so I just had versions of file, but with no use. As I
+    never figured out a method to compare changes.
+    Having versions, biggest benefit is I can go to a version that was working. I've assurance, peace of mind.
+    Most importantly, can find differences between versions, which may help find bugs or functionality added.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Cons of manually saving:
+        You may accidentally forget about committing, and later you see, a lot of code is in a single commit.
+        It's a trouble everytime: spend time in manual committing, and thinking and typing a commit message.
+        Due to the above only thing, you may feel like skipping committing.
+        You may think like, this feature or this line, doesn't require a commit, but it is actually too much for a single commit.
+
+    Pros of manual saving:
+        Meaningful versions rather than just "backups". This is the most significant thing.
+        If you've given a meaningful commit message, then you don't have to spend time later, analyzing what this version added.
+        Full control.
+        You know what is a changepoint, and what needs to be noticed for other collaborators to follow.
+        You may never end up in having a lot of "not working" versions.
+        
+        
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is made for code, whereas Google Docs is made for more public things like documents.
+    When you code, changing one file may need changes to be made to other files also, so this seems like a single logical change,
+    rather than two unrelated changes. So single commit that tracks different files is a very good approach.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log to show overall commit details
+    git log --stat to show more details, like lines deleted or added.
+    git diff commit_id to show differences between the commit entered and the latest one.
+    git diff older_commit newer_commit if you reverse the order, you'll see a different thing.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    some combination of features make it powerful.
+    Like checking out a previous commit, reverts our files to a temporary stage, and we can run our files, make commits and discard them if we checkout to some other commit.
+    If we want to retain the changes, then we can create a new branch.
+    diff command is also useful.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I basically want to use git for everything. I want to use it as a replacement for my manual version control system,
+    in which I've lots of file with different names, no commit messages, no easy way to use diff commands, and so on.
+    No more copying pasting files, no more fear of accidentally pressing the Ctrl+S.
+    
