@@ -26,3 +26,10 @@ How do the diagrams help you visualize the branch structure?
     git log --graph command can help us. quite a good way, that we can do this locally also.
     Diagrams sometimes add to the confusion, if you are new, but later, it can be better understood.
     Visualizing the branch structure helps us to visualize from where the branch was created or merged.
+    
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    rather than keeping one branch's changes AS other branch's changes, it adds to them, by comparing to the first common parent of both branches.
+    Helps in visualization, that timestamp based sorting of commits is misleading.
+    
+    
