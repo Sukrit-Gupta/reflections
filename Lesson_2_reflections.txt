@@ -32,4 +32,12 @@ What is the result of merging two branches together? Why do we represent it in t
     rather than keeping one branch's changes AS other branch's changes, it adds to them, by comparing to the first common parent of both branches.
     Helps in visualization, that timestamp based sorting of commits is misleading.
     
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
     
+    pros of automatic merging: If the git develops some algorithm, that detects with 100% assurity that the changes are unrelated and can be merged, then automatic merging is good.
+    I can't think of pros as I'm more worried of cons.
+    
+    Cons:
+    Programming code can be quite complex, and it needs to be thoroughly checked, to run perfectly.
+    Your working code could be spoiled by "some" automatic merging in git.
+    Git currently provides a file, which can be helpful, in deciding what to keep, so I don't see much cons.
