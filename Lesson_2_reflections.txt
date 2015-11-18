@@ -2,3 +2,27 @@ What happens when you initialize a repository? Why do you need to do it?
     git makes an empty git repository with no files in it, to give user a full control on what files it wants to add.
     
     Need: Without initializing git, git won't know if it needs to track the changes.
+    
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    
+    Staging area is an intermediary state between working directory and repository. It allows you to fine tune which files will be added to commit. You cannot run commit file directory without adding something to the staging area.
+    You can use git diff --staged to view differences between the staging area and the repository.
+    
+How can you use the staging area to make sure you have one commit per logical change?
+    
+    You've to use staging area to commit a change, and in the process, you explicitly define which files you want to add.
+    Or say, locally you made two unrelated changes to two different files, now, without deleting your work in the other file, or manually
+    copying the file in some other folder, what you can do is don't add the file that you don't want to be added to the staging area, and
+    you can procede with a commit, that only reflects the change you want to show.
+    
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    
+    I haven't worked with branches earlier. In manual systems, it is almost unthinkable to do anything with branches.
+    As the video says, a stable master version, and other experimental versions, say each for a different feature.
+    Or take it like this, it allows you to make experiment with your code in a different branch, but still allowing you to have a stable code in master or other branch.
+    
+How do the diagrams help you visualize the branch structure?
+
+    git log --graph command can help us. quite a good way, that we can do this locally also.
+    Diagrams sometimes add to the confusion, if you are new, but later, it can be better understood.
+    Visualizing the branch structure helps us to visualize from where the branch was created or merged.
