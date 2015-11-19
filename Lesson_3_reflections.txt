@@ -5,3 +5,11 @@ local?
     Other reason is to make your code's source open.
     It gives you an easy way to view your repository on some other computer, and no need of setting up some server.
     For private repositories, the above reason is also valid.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+    More control.
+    Other users working on the same files. Say, I'm working locally on a file, and some other collaborator is working on the same file,
+    then if he finishes earlier, and my local files get updated, then this would be a worst case scenario.
+    Automatic updating MAY be helpful, when you want to use it for compiling an updated code, but still if it gets updated in the middle
+    of the process.
