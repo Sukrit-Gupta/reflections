@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    One big reason is for collaboration with other people.
+    Other reason is to make your code's source open.
+    It gives you an easy way to view your repository on some other computer, and no need of setting up some server.
+    For private repositories, the above reason is also valid.
