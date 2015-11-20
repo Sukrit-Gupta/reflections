@@ -32,3 +32,17 @@ What is the benefit of having a copy of the last known state of the remote store
     You can run git status locally and it will compare it to remote, and vice-versa.
     you can do git log origin/master.
     git fetch origin can update the current commits in the local.
+    
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    Collaborating without GitHub:
+        Make a Google Drive shared editable folder, then for easyness, then I would install Google Drive for PC, to edit files locally. After I make changes, and want others to review it. Then I would email that person, and stop doing more work. Or copy all the files in a different directory, give it a name, and start working on more things if I want.
+        
+    Easier: GitHub
+        I've not used GitHub for collaborating, but it seems it would be the most efficient way, 
+        as GitHub is made for code sharing and collaborating.
+        We can use branching, pull requests, close pull requests, and so on.
+        
+    Difficulty on GitHub:
+        if other person don't knows the usage of Git and GitHub, and concepts of branching and merging, specifically,
+        then it is rather a hinderance.
