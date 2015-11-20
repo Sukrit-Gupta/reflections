@@ -24,3 +24,11 @@ Describe the differences between forks, clones, and branches. When would you use
     Cloning: getting an exact copy of files along with commit history of a repository, including all the branches.
     
     Branches: part of a repository. While cloning or forking, you get all the branches, but while pushing or pulling, you do it for each branch.
+    
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    lots of benefits:
+    You don't have to go online, to see the commits in the remote.
+    You can run git status locally and it will compare it to remote, and vice-versa.
+    you can do git log origin/master.
+    git fetch origin can update the current commits in the local.
