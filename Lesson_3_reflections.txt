@@ -13,3 +13,14 @@ Why might you want to always pull changes manually rather than having Git automa
     then if he finishes earlier, and my local files get updated, then this would be a worst case scenario.
     Automatic updating MAY be helpful, when you want to use it for compiling an updated code, but still if it gets updated in the middle
     of the process.
+    
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    fork is cloning from a github repository to another github repository, all with a single click of a button.
+    You can achieve fork like functionality with cloning on a local computer, then adding a remote and pushing all branches to a newly created empty repository on github. And if you want to push changes (I think you won't have access to that) to original repository, then you would have to add a remote on the github repository.
+    Also, cloning instead of forking, is like stealing. But Github should display forks from the forked repository, and on the original repository, display both forks (direct and total forks).
+    You may do forking, as you don't have access to original repository.
+    
+    Cloning: getting an exact copy of files along with commit history of a repository, including all the branches.
+    
+    Branches: part of a repository. While cloning or forking, you get all the branches, but while pushing or pulling, you do it for each branch.
