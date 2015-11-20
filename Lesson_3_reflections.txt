@@ -46,3 +46,16 @@ How would you collaborate without using Git or GitHub? What would be easier, and
     Difficulty on GitHub:
         if other person don't knows the usage of Git and GitHub, and concepts of branching and merging, specifically,
         then it is rather a hinderance.
+        
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+    New experimental feature and doing alone: Branching is still helpful in this case.
+    New feature, collaborating: You want others to notice it, so you create branch, create pull request, and let others merge it after reviewing.
+    I think if everyone makes branches for his work, then you would never run in conflicts, and can work without fearing that
+    someone else may push to GitHub.
+    I think making and merging branches is a part of Git, so making more branches won't harm. But creating a branch for each feature,
+    seems to add a lot of commit messages.
+    
+    Benefit of directly in master:
+        a simple commit and push master on github:
+        no more merging two branches locally, and pushing different branch on github, then merging/pull-request on github.
